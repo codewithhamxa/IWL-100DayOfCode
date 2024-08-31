@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-name">DevHamza</div>
+        <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>M. Hamza Javed</h1>
+            <h2>Front end developer</h2>
+            <a href="frontenddevcv.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="hero-animation">
+            <lottie-player src="https://lottie.host/031b850c-de7e-48cf-b156-311698250c5d/82kAlA9k9r.json"
+                background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.png" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm M. Hamza Javed, a passionate front-end developer with a focus on creating beautiful and
+                        functional websites. I love learning new technologies and improving my coding skills every day.
+                    </p>
+                    <h3>Skills:</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>PHP</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="images/folio-1.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>LinkedIn Clone</h3>
+                        <p>Category: Frontend Development</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-2.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Netflix Clone with API</h3>
+                        <p>Category: Frontend Development</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-3.png" alt="Project 3">
+                    <div class="project-info">
+                        <h3>UniVerse</h3>
+                        <p>Category: Front-end Development</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-4.png" alt="Project 4">
+                    <div class="project-info">
+                        <h3>NewsStudio | News App</h3>
+                        <p>Category: JavaScript API</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-5.png" alt="Project 5">
+                    <div class="project-info">
+                        <h3>Recipe App</h3>
+                        <p>Category: JavaScript API</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-6.png" alt="Project 6">
+                    <div class="project-info">
+                        <h3>PixelHunt | Image Search App</h3>
+                        <p>Category: JavaScript API</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-7.png" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Appointment Booking App</h3>
+                        <p>Category: React Development</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-8.png" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Little Lemon</h3>
+                        <p>Category: React Development</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/folio-9.png" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Code Editior</h3>
+                        <p>Category: Frontend Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to email me or connect through my social profiles.</p>
+            <div class="contact-info">
+                <a href="mailto:code.with.hamxa@gmail.com" class="email-link">code.with.hamxa@gmail.com</a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hamzajavedreactdev/" target="_blank">
+                        <img src="images/linkedin-icon.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/codewithhamxa" target="_blank">
+                        <img src="images/github-icon.svg" alt="GitHub">
+                    </a>
+                    <a href="https://facebook.com/Inovateweblabs" target="_blank">
+                        <img src="images/facebook-icon.svg" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com/innovate_web_labs" target="_blank">
+                        <img src="images/instagram-icon.svg" alt="instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
