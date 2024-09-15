@@ -95,9 +95,7 @@ nav ul li a:hover {
   border: 2px solid var(--primary);
 }
 .hero {
-  background: var(--primary) url("/images/bg.jpg") no-repeat center center;
-  /* background-color: #95c0d5;
-  background-image: url(/images/bg.jpg); */
+  background: var(--primary) url("/IWL-100DayOfCode/responsive-blog/images/bg.jpg") no-repeat center center;
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
