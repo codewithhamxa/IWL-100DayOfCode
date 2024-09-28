@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  /* background: #0f3660; */
-  background-image: url("/images/weather_bg.jpg");
+  background-image: url("images/weather_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   font-family: "Poppins", sans-serif;
